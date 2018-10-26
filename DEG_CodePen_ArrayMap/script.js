@@ -9,9 +9,7 @@ For simplicity's sake, assume Aaron likes all cheese other than Provel.
 const cheeses = ['Provel', 'Provel', 'Provel'];
 
 const newCheeses = cheeses.map(function(cheese){
-		let newFlavor = 'Cheddar';
-	
-		return newFlavor;
+	return "Cheddar";
 });
 
 
